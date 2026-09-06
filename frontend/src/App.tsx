@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { ShieldAlert, Activity, Map as MapIcon, Users, Home, LayoutDashboard } from 'lucide-react';
 import CommandCenter from './components/CommandCenter';
 import LiveMap from './components/LiveMap';
